@@ -81,11 +81,11 @@ python scripts/run_lookahead_pruning.py --model gpt2 --sparsity 0.3
 
 ### Sparsity Comparison
 
-![Sparsity Comparison](results/figures/Sparsity_Comparison.jpg)
+![Sparsity Comparison](results/figures/Sparsity_Comparison.png)
 
 ### Perplexity Comparison
 
-![Perplexity Comparison](results/figures/Perplexity_Comparison.jpg)
+![Perplexity Comparison](results/figures/Perplexity_Comparison.png)
 
 ## Fine-Tuning Observation
 
