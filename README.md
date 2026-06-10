@@ -544,15 +544,15 @@ If result figures are available, place them inside `results/figures/` and enable
 
 ### Fine-Tuning Curve
 
-![Fine-Tuning Curve](results/figures/fine_tuning_curve.png)
+![Fine-Tuning Curve](results/figures/Fine-Tuning_Curve.jpg)
 
 ### Sparsity Comparison
 
-![Sparsity Comparison](results/figures/sparsity_comparison.png)
+![Sparsity Comparison](results/figures/Sparsity_Comparison.png)
 
 ### Perplexity Comparison
 
-![Perplexity Comparison](results/figures/perplexity_comparison.png)
+![Perplexity Comparison](results/figures/Perplexity_Comparison.png)
 
 ### Perplexity vs Sparsity
 
@@ -565,36 +565,6 @@ If result figures are available, place them inside `results/figures/` and enable
 This repository contains a research implementation of Global Lookahead Pruning. The current version focuses on demonstrating the method, reproducing pruning experiments, and comparing the proposed approach with basic magnitude-based pruning baselines.
 
 The project is suitable for further extension into a more complete model compression framework.
-
----
-
-## Authors
-
-* Al Mahfuz
-* Dewan MD Saif
-* Motasim Abid
-* Al-Amin Rabbi
-* Nabeel Mohammed
-
----
-
-## References
-
-[1] Brown, T. B., et al. (2020). Language Models are Few-Shot Learners. *Advances in Neural Information Processing Systems (NeurIPS)*.
-
-[2] Chowdhery, A., et al. (2022). PaLM: Scaling Language Modeling with Pathways. *arXiv preprint arXiv:2204.02311*.
-
-[3] LeCun, Y., Denker, J. S., & Solla, S. A. (1990). Optimal Brain Damage. *Advances in Neural Information Processing Systems*.
-
-[4] Han, S., et al. (2015). Learning Both Weights and Connections for Efficient Neural Networks. *Advances in Neural Information Processing Systems*.
-
-[5] Frantar, M., & Alistarh, D. (2023). SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot. *arXiv preprint arXiv:2301.00774*.
-
-[6] Sun, M., Liu, Z., Bair, A., & Kolter, J. Z. (2024). WANDA: A Simple and Effective Pruning Approach for Large Language Models. *International Conference on Learning Representations (ICLR)*.
-
-[7] Zhang, Y., et al. (2024). Plug-and-Play: An Efficient Post-Training Pruning Method for Large Language Models. *International Conference on Learning Representations (ICLR)*.
-
-[8] Merity, S., Xiong, C., Bradbury, J., & Socher, R. (2016). Pointer Sentinel Mixture Models. *arXiv preprint arXiv:1609.07843*.
 
 ---
 
