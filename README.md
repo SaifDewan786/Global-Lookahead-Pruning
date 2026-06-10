@@ -96,6 +96,7 @@ For a weight `W_ij^(L)` in layer `L`, the Lookahead importance score is:
 
 ```math
 I_{ij}^{(L)} = \left| W_{ij}^{(L)} \right| \cdot \sqrt{\left| \mu\left(A^{(L+1)}\right) - \mu\left(A^{(L+2)}\right) \right|}
+```
 
 The square root is used to dampen very large activation differences so that the activation term does not dominate the weight magnitude completely.
 
