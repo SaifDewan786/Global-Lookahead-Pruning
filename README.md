@@ -28,7 +28,7 @@ src/        Reusable implementation
 
 scripts/    Command-line experiment runners
 
-notebooks/  Original exploratory experiments
+Full_Code/  The whole project in one file with documentation
 
 results/    Tables and figures
 
