@@ -77,15 +77,15 @@ python scripts/run_lookahead_pruning.py --model gpt2 --sparsity 0.3
 
 ### Fine-Tuning Curve
 
-![Fine-Tuning Curve](results/figures/fine_tuning_curve.png)
+![Fine-Tuning Curve](results/figures/Fine-Tuning_Curve.jpg)
 
 ### Sparsity Comparison
 
-![Sparsity Comparison](results/figures/sparsity_comparison.png)
+![Sparsity Comparison](results/figures/Sparsity_Comparison.jpg)
 
 ### Perplexity Comparison
 
-![Perplexity Comparison](results/figures/perplexity_comparison.png)
+![Perplexity Comparison](results/figures/Perplexity_Comparison.jpg)
 
 ## Fine-Tuning Observation
 
