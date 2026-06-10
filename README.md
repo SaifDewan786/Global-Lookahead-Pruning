@@ -58,3 +58,36 @@ python scripts/run_lookahead_pruning.py --model gpt2 --sparsity 0.3
 - Baselines:
 -- Global magnitude pruning
 -- Layerwise magnitude pruning
+
+## Results
+
+| Model      |            Method | Perplexity | Sparsity |
+| ---------- | ----------------: | ---------: | -------: |
+| Qwen-2.5B  |          Baseline |      17.62 |    0.000 |
+| Qwen-2.5B  | Layerwise Pruning |      30.51 |    0.299 |
+| Qwen-2.5B  | Lookahead Pruning |      22.60 |    0.145 |
+| GPT-2      |          Baseline |      45.73 |    0.000 |
+| GPT-2      | Layerwise Pruning |      62.58 |    0.299 |
+| GPT-2      | Lookahead Pruning |      63.01 |    0.087 |
+| DeepSeekR1 |          Baseline |      68.58 |    0.000 |
+| DeepSeekR1 | Layerwise Pruning |      82.84 |    0.261 |
+| DeepSeekR1 | Lookahead Pruning |      90.20 |    0.145 |
+
+## Fine-Tuning Observation
+
+Iterative Lookahead pruning with fine-tuning reached around 30% sparsity with validation perplexity close to 11.95 on GPT-2 in the reported experiments.
+
+## Limitations
+
+- The current implementation focuses mainly on unstructured pruning.
+- Hardware speedup is not guaranteed unless sparse kernels or structured sparsity are used.
+- Activation mean differences may not fully capture importance for every architecture.
+- Results depend on calibration data quality.
+
+## Future Work
+
+- Add structured N:M pruning support
+- Test on larger LLMs
+- Combine pruning with quantization
+- Add support for more transformer architectures
+- Improve activation statistics using variance or norm-based metrics
