@@ -37,12 +37,24 @@ reports/    Full project report
 docs/       Additional documentation
 
 ## Installation
+```text
 git clone https://github.com/YOUR_USERNAME/global-lookahead-pruning.git
 cd global-lookahead-pruning
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
+```
 
 ## Usage
+```text
 python scripts/run_lookahead_pruning.py --model gpt2 --sparsity 0.3
+```
 
+## Experimental Setup
+
+- Models: GPT-2, Qwen-2.5B, DeepSeekR1
+- Dataset: WikiText-2
+- Metrics: Perplexity and sparsity
+- Baselines:
+-- Global magnitude pruning
+-- Layerwise magnitude pruning
