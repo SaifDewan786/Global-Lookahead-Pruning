@@ -556,7 +556,7 @@ If result figures are available, place them inside `results/figures/` and enable
 
 ### Perplexity vs Sparsity
 
-![Perplexity vs Sparsity](results/figures/perplexity_vs_sparsity.png)
+![Perplexity vs Sparsity](results/figures/PerplexityVSSparsity.jpg)
 
 ---
 
