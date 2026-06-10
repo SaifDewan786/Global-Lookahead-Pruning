@@ -23,11 +23,17 @@ For a weight matrix in layer `L`, Global Lookahead Pruning calculates an importa
 importance = |weight| × sqrt(|mean(A_L+1) - mean(A_L+2)|)
 ```
 ## Repository Structure
+
 src/        Reusable implementation
+
 scripts/    Command-line experiment runners
+
 notebooks/  Original exploratory experiments
+
 results/    Tables and figures
+
 reports/    Full project report
+
 docs/       Additional documentation
 
 ## Installation
