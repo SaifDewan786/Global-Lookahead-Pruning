@@ -9,3 +9,14 @@ The intuition is that weights inside layers that cause larger representational c
 
 ```text
 score = |W| × sqrt(|mean(A_L+1) - mean(A_L+2)|)
+```
+
+## Steps
+
+- Run a calibration forward pass.
+- Collect mean activations from transformer layers.
+- Compute lookahead importance scores.
+- Rank weights globally.
+- Prune the lowest-scoring weights.
+- Evaluate perplexity and sparsity.
+- Optionally fine-tune the pruned model.
