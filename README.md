@@ -159,7 +159,7 @@ global-lookahead-pruning/
 │   ├── run_lookahead_pruning.py
 │   └── run_finetune_pruned_model.py
 │
-├── notebooks/
+├── Full_Code/
 │   └── exploratory_pruning_experiments.ipynb
 │
 ├── results/
