@@ -73,6 +73,20 @@ python scripts/run_lookahead_pruning.py --model gpt2 --sparsity 0.3
 | DeepSeekR1 | Layerwise Pruning |      82.84 |    0.261 |
 | DeepSeekR1 | Lookahead Pruning |      90.20 |    0.145 |
 
+## Visual Results
+
+### Fine-Tuning Curve
+
+![Fine-Tuning Curve](results/figures/fine_tuning_curve.png)
+
+### Sparsity Comparison
+
+![Sparsity Comparison](results/figures/sparsity_comparison.png)
+
+### Perplexity Comparison
+
+![Perplexity Comparison](results/figures/perplexity_comparison.png)
+
 ## Fine-Tuning Observation
 
 Iterative Lookahead pruning with fine-tuning reached around 30% sparsity with validation perplexity close to 11.95 on GPT-2 in the reported experiments.
