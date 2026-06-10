@@ -1,12 +1,3 @@
-
-Replace `YOUR_USERNAME`.
-
----
-
-# Phase 12: Add documentation files
-
-## `docs/method.md`
-
 ```md
 # Method: Global Lookahead Pruning
 
