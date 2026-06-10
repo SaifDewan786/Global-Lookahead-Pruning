@@ -92,19 +92,10 @@ Weights with the lowest global importance scores are pruned.
 
 ## Mathematical Formulation
 
-For a weight ( W_{ij}^{(L)} ) in layer ( L ), the Lookahead importance score is:
+For a weight `W_ij^(L)` in layer `L`, the Lookahead importance score is:
 
-[
-I_{ij}^{(L)} = |W_{ij}^{(L)}| \cdot \sqrt{|\mu(A^{(L+1)}) - \mu(A^{(L+2)})|}
-]
-
-Where:
-
-* ( W_{ij}^{(L)} ) is a weight in layer ( L )
-* ( A^{(L+1)} ) is the activation after the next layer
-* ( A^{(L+2)} ) is the activation after the layer after that
-* ( \mu(\cdot) ) represents the mean activation
-* ( I_{ij}^{(L)} ) is the final importance score
+```math
+I_{ij}^{(L)} = \left| W_{ij}^{(L)} \right| \cdot \sqrt{\left| \mu\left(A^{(L+1)}\right) - \mu\left(A^{(L+2)}\right) \right|}
 
 The square root is used to dampen very large activation differences so that the activation term does not dominate the weight magnitude completely.
 
